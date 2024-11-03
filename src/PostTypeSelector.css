@@ -1,0 +1,33 @@
+/* PostTypeSelector.css */
+
+.posttypeselector {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: #f9fafc; /* Light background for subtle separation */
+  border-radius: 10px; /* Rounded container */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.posttypeselector select {
+  padding: 12px 18px;
+  font-size: 1rem;
+  color: #333;
+  border: 2px solid #4CAF50; /* Accent border color */
+  border-radius: 8px; /* More rounded for modern look */
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+.posttypeselector select:hover {
+  border-color: #45a049; /* Darker accent on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.posttypeselector select:focus {
+  border-color: #45a049; /* Consistent accent on focus */
+  box-shadow: 0 0 0 4px rgba(76, 175, 80, 0.2); /* Soft outline on focus */
+}

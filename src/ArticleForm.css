@@ -1,0 +1,52 @@
+/* ArticleForm.css */
+
+.articleform {
+  background-color: #f3f4f6; /* Soft gray background for a modern look */
+  padding: 25px 30px;
+  border-radius: 12px; /* Increased rounding for a smooth aesthetic */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly more shadow for depth */
+  max-width: 600px; /* Limits width for a clean, centered form */
+  margin: 0 auto; /* Center the form on the page */
+}
+
+.articleform label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555; /* Softer text color */
+  font-weight: 600; /* Increased weight for better readability */
+  font-size: 1rem;
+}
+
+.articleform input,
+.articleform textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px; /* Rounded input fields for a cohesive look */
+  border: 1px solid #ccc; /* Softer border color */
+  background-color: #fff; /* White background for inputs */
+  transition: border-color 0.3s ease; /* Smooth transition on focus */
+}
+
+.articleform input:focus,
+.articleform textarea:focus {
+  border-color: #2185d0; /* Accent color on focus */
+  outline: none; /* Removes default outline for a clean look */
+}
+
+.articleform button {
+  background-color: #4CAF50; /* Fresh green color */
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth color and scale transition */
+}
+
+.articleform button:hover {
+  background-color: #45a049; /* Darker green on hover */
+  transform: scale(1.05); /* Slight scaling for interaction */
+}

@@ -1,0 +1,83 @@
+/* FindQuestion.css */
+
+.find-question {
+  padding: 30px;
+  background-color: #f0f4f8; /* Light background for contrast */
+}
+
+.filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+  align-items: center;
+}
+
+.filters input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc; /* Softer border color */
+  background-color: #ffffff;
+  transition: border-color 0.3s ease;
+}
+
+.filters input:focus {
+  border-color: #4CAF50; /* Accent color on focus */
+  outline: none;
+}
+
+.question-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.question-card {
+  background-color: #ffffff; /* Bright background for cards */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Increased shadow for depth */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.question-card:hover {
+  transform: translateY(-5px); /* Slight lift effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.question-card h2 {
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.question-card button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50; /* Updated to a fresh green */
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.question-card button:hover {
+  background-color: #45a049; /* Slightly darker green */
+  transform: scale(1.05); /* Subtle scaling effect */
+}
+
+.question-details {
+  margin-top: 25px;
+  padding-top: 25px;
+  border-top: 1px solid #e0e0e0; /* Light border for separation */
+  font-size: 1rem;
+  color: #555; /* Softer text color */
+}
+
+.question-details img {
+  max-width: 100%;
+  border-radius: 8px; /* More rounded corners */
+  margin-top: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for images */
+}
